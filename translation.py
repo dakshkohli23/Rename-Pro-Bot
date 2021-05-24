@@ -3,8 +3,8 @@
 class Translation( object ):
     NOT_AUTH_TXT = "⚠️ <b>Unauthorized Access</b> ⚠️\nYou are not in Auth Users.  So you can't use the core " \
                    "components of this bot. Inconvenience is regretted !"
-    DOWNLOAD_START = "📥<b>DOWNLOADING</b>📥<i> Plz wait..</i>"
-    UPLOAD_START = "📤<b>UPLOADING</b>📤<i> Plz wait..</i>"
+    DOWNLOAD_START = "📥<b>Downloading 📥</b>"
+    UPLOAD_START = "📤<b>Uploading 📤</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>✅ Thumbnail Saved Successfully.</b>\n<code>This file will be used in upcoming " \
                               "rename or video conversions</code> "
     SAVED_RECVD_DOC_FILE = "<b>✔️ Media Downloaded Successfully</b>"
@@ -12,8 +12,8 @@ class Translation( object ):
     START_TEXT = "Hello.. <b>{}</b>\n\n<b>Myself:</b> {}\n\n<b>I can do a lot of things with your files</b>\n\n" \
                  "<i>Send filename + extension (Eg: terminator.mkv) as a reply to any telegram media, and follow " \
                  "Bot's instructions.</i>\n\n" \
-                 "<b>My Author is: </b><a href='https://t.me/space4renjith'>                HERE</a>\n" \
-                 "<b>My code can be seen: </b><a href='https://github.com/m4mallu/renameprobot'> HERE</a>\n\n" \
+                 "<b>Developer: </b><a href='https://t.me/Dlaize'>                Mr. Dlaize</a>\n" \
+                 "<b>Source Code: </b><a href='https://github.com/dakshkohli23/Rename-Pro-Bot'> Github</a>\n\n" \
                  "<i> Have a nice day</i> 😍"
     SETTINGS_TEXT = "<b>These are my available options:</b>"
     THUMB_CAPTION = "<code>This image is your current thumbnail, Tap</code><b> DEL THUMB </b><code>if you wish to " \
