@@ -14,7 +14,7 @@ class Translation( object ):
                  "<i>Send filename + extension (Eg: onepiece.mkv) as a reply to any telegram media, and follow " \
                  "Bot's instructions.</i>\n\n" \
                  "<b>👨‍💻 Developer: </b><a href='https://t.me/Dlaize'> Mr. Dlaize</a>\n" \
-                 "<b>🧬 Source Code: </b><a href='https://github.com/dakshkohli23/Rename-Pro-Bot'> Github</a>\n\n" \
+                 "<b>🧬 Source Code: </b><a href='https://github.com/dakshkohli23/Rename-Pro-Bot'> Github</a>\n\n"
     SETTINGS_TEXT = "<b>These are my available options:</b>"
     THUMB_CAPTION = "<code>This image is your current thumbnail, Tap</code><b> DEL THUMB </b><code>if you wish to " \
                     "clear it !</code> "
