@@ -1,4 +1,4 @@
-#-------------------------------------- https://github.com/m4mallu/renameprobot --------------------------------------#
+#-------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot --------------------------------------#
 
 import os
 import os.path
@@ -54,8 +54,8 @@ async def view_thumbnail(bot, update):
             caption=Translation.THUMB_CAPTION,
             reply_to_message_id=update.message.message_id,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("DEL THUMB", callback_data="conf_thumb"),
-                  InlineKeyboardButton("Back", callback_data="settings")]]))
+                [[InlineKeyboardButton("❓ Delete Thumb", callback_data="conf_thumb"),
+                  InlineKeyboardButton("↩ Back", callback_data="settings")]]))
 
     else:
         await bot.delete_messages(chat_id=update.message.chat.id, message_ids=update.message.message_id)
@@ -93,8 +93,8 @@ async def del_thumb_confirm(bot, update):
             text=Translation.DEL_THUMB_CONFIRM,
             reply_to_message_id=update.message.message_id,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("✅ Sure, Delete It", callback_data="del_thumb"),
-                  InlineKeyboardButton("Back", callback_data="settings")]]))
+                [[InlineKeyboardButton("❓ Sure, Delete It", callback_data="del_thumb"),
+                  InlineKeyboardButton("↩ Back", callback_data="settings")]]))
     else:
         await bot.delete_messages(chat_id=update.message.chat.id, message_ids=update.message.message_id)
         b1 = await bot.send_message(chat_id=update.message.chat.id, text=Translation.NO_THUMB)
