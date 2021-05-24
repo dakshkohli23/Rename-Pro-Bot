@@ -1,4 +1,4 @@
-#-------------------------------------- https://github.com/m4mallu/renameprobot --------------------------------------#
+#-------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot --------------------------------------#
 
 class Translation( object ):
     NOT_AUTH_TXT = "⚠️ <b>Unauthorized Access</b> ⚠️\nYou are not in Auth Users.  So you can't use the core " \
@@ -30,8 +30,8 @@ class Translation( object ):
     EXTENSIONS = ['.mkv', '.mp4', '.avi', '.webm']
     NO_SPAM_MSG = "⚠️ <b>Don't Spam Here</b>\n<code>Read the welcome message for better use of this bot !</code>"
     MAKE_A_COPY_TEXT = "📚 <code>Need a copy ?</code>"
-    FINISHED_PROGRESS_STR = "◼️"
-    UN_FINISHED_PROGRESS_STR = "◻️"
+    FINISHED_PROGRESS_STR = "⚉"
+    UN_FINISHED_PROGRESS_STR = "⚇"
     CAPTION_TEXT = "<b>{}</b>"
     SUCCESSFUL_SEND = "<code>Forwarded Successfully to:</code>\n<b>{}</b>"
     FORWARD_ERROR = "<b>⚠️ Attention :</b>\n<code>Make Sure That I am Admin in Your Channel or Provided Channel " \
@@ -48,5 +48,5 @@ class Translation( object ):
                     "}\n\n<b>Channel2:</b>\n<code>ID: {}</code>\nName: {}\n\n<b>Channel 3:</b>\n<code>ID: {" \
                     "}</code>\nName: {}\n\n<b>Channel 4:</b>\n<code>ID: {}</code>\nName: {}\n\n<b>Channel " \
                     "5:</b>\n<code>ID: {}</code>\nName: {} "
-    START_APP_TEXT = "🤓 {} with Pyrogram v{} (Layer {}) started on {} 🤓"
-    STOP_APP_TEXT = "🥵 Bot stopped. Bye... 🥵"
+    START_APP_TEXT = "⚡ {} with Pyrogram v{} (Layer {}) started on {} ⚡"
+    STOP_APP_TEXT = "🚫 Bot Stopped... 🚫"
