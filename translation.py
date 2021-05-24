@@ -30,8 +30,6 @@ class Translation( object ):
     EXTENSIONS = ['.mkv', '.mp4', '.avi', '.webm']
     NO_SPAM_MSG = "⚠️ <b>Don't Spam Here</b>\n<code>Read the welcome message for better use of this bot !</code>"
     MAKE_A_COPY_TEXT = "📚 <code>Need a copy ?</code>"
-    FINISHED_PROGRESS_STR = "⚉"
-    UN_FINISHED_PROGRESS_STR = "⚇"
     CAPTION_TEXT = "<b>{}</b>"
     SUCCESSFUL_SEND = "<code>Forwarded Successfully to:</code>\n<b>{}</b>"
     FORWARD_ERROR = "<b>⚠️ Attention :</b>\n<code>Make Sure That I am Admin in Your Channel or Provided Channel " \
