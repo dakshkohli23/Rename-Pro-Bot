@@ -36,10 +36,10 @@ async def bot_settings(bot, update):
         reply_to_message_id=update.message.message_id,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("View Thumb", callback_data="view_thumb"),
-                 InlineKeyboardButton("Del Thumb", callback_data="conf_thumb")],
-                [InlineKeyboardButton("Help", callback_data="start_help"),
-                 InlineKeyboardButton("Close", callback_data="close")]
+                [InlineKeyboardButton("🖼️ View Thumb", callback_data="view_thumb"),
+                 InlineKeyboardButton("🗑️ Del Thumb", callback_data="conf_thumb")],
+                [InlineKeyboardButton("❗ Help", callback_data="start_help"),
+                 InlineKeyboardButton("✖️ Close", callback_data="close")]
             ])
     )
 
