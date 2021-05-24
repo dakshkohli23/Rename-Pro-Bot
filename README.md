@@ -1,7 +1,7 @@
 
 # [Rename-Pro-Bot](https://github.com/dakshkohli23/Rename-Pro-Bot) 🤖
 
-An Open Source ALL-In-One Telegram RoBot, that can do a lot of things.
+A Telegram File Rename Bot With Permanent Thumbnail Support Also It Can Send Files Into 5 Different Channels/Groups!!
 
 
 ## 💠 About :
