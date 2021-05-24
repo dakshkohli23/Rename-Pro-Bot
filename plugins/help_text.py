@@ -1,4 +1,4 @@
-#-------------------------------------- https://github.com/m4mallu/renameprobot --------------------------------------#
+#-------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot --------------------------------------#
 
 import logging
 from pyrogram import Client, filters, StopPropagation
