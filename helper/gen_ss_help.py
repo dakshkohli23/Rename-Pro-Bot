@@ -1,10 +1,10 @@
-#------------------------------------- https://github.com/m4mallu/ashesOFpheonix -------------------------------------#
+#------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot -------------------------------------#
 
 import asyncio
 import os
 import time
 import logging
-#-------------------------------------- https://github.com/m4mallu/renameprobot --------------------------------------#
+#-------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot --------------------------------------#
 
 from hachoir.metadata import extractMetadata
 from hachoir.parser import createParser
