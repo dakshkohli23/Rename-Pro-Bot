@@ -1,4 +1,4 @@
-#-------------------------------------- https://github.com/m4mallu/renameprobot --------------------------------------#
+#-------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot --------------------------------------#
 
 import os
 import time
@@ -43,8 +43,8 @@ async def download_media(bot, update):
                     reply_to_message_id=update.message_id,
                     reply_markup=InlineKeyboardMarkup(
                         [
-                            [InlineKeyboardButton(text="📚Document", callback_data="rename_doc"),
-                             InlineKeyboardButton("🎞Video", callback_data="convert_video")]
+                            [InlineKeyboardButton(text="📁 Document", callback_data="rename_doc"),
+                             InlineKeyboardButton("🎞️ Video", callback_data="convert_video")]
                         ])
                 )
                 message1[id] = a.message_id
@@ -115,9 +115,9 @@ async def rename_file(bot, update):
             text=Translation.MAKE_A_COPY_TEXT,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("📘 Doc", callback_data="d_copy"),
-                     InlineKeyboardButton("🎞 Video", callback_data="v_copy")],
-                    [InlineKeyboardButton(" Close", callback_data="clear_med")]
+                    [InlineKeyboardButton("📁 Doc", callback_data="d_copy"),
+                     InlineKeyboardButton("🎞️ Video", callback_data="v_copy")],
+                    [InlineKeyboardButton("✖️ Close", callback_data="clear_med")]
                 ])
         )
 
@@ -196,8 +196,8 @@ async def convert_to_video(bot, update):
                 text=Translation.MAKE_A_COPY_TEXT,
                 reply_markup=InlineKeyboardMarkup(
                     [
-                        [InlineKeyboardButton("📘 Document", callback_data="d_copy"),
-                         InlineKeyboardButton("🎞 Video", callback_data="v_copy")],
-                        [InlineKeyboardButton(" Close", callback_data="clear_med")]
+                        [InlineKeyboardButton("📁 Document", callback_data="d_copy"),
+                         InlineKeyboardButton("🎞️ Video", callback_data="v_copy")],
+                        [InlineKeyboardButton("✖️ Close", callback_data="clear_med")]
                     ])
             )
