@@ -29,7 +29,7 @@ class Translation( object ):
                   "check the supported extensions in welcome message !</code> "
     EXTENSIONS = ['.mkv', '.mp4', '.avi', '.webm']
     NO_SPAM_MSG = "⚠️ <b>Don't Spam Here</b>\n<code>Read the welcome message for better use of this bot !</code>"
-    MAKE_A_COPY_TEXT = "📚 <b>{} \n You Need a Copy ?</b>"
+    MAKE_A_COPY_TEXT = "<b>📚 You Need a Copy ?</b>"
     CAPTION_TEXT = "<b>📁 Filename : {}</b>"
     SUCCESSFUL_SEND = "<code>Forwarded Successfully to:</code>\n<b>{}</b>"
     FORWARD_ERROR = "<b>⚠️ Attention :</b>\n<code>Make Sure That I am Admin in Your Channel or Provided Channel " \
