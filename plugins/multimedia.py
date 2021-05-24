@@ -22,8 +22,7 @@ else:
 #-------------- Receives a Text message including filename with Extension replied to a Telegram Media ----------------#
 @Client.on_message(filters.private & filters.text, group=1)
 async def download_media(bot, update):
-    update_channel = Config.UPDATE_CHANNEL
-    if update:
+    if update.from_user.id not in Config.AUTH_USERS:
         await bot.delete_messages(chat_id=update.chat.id, message_ids=update.message_id)
         a0 = await update.reply_text(text=Translation.NOT_AUTH_TXT)
         time.sleep(5)
