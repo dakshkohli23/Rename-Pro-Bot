@@ -1,3 +1,3 @@
-#------------------------------------- https://github.com/m4mallu/ashesOFpheonix -------------------------------------#
+#------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot -------------------------------------#
 
 worker: python3 bot.py
