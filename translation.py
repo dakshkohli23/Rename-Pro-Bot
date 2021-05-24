@@ -3,8 +3,8 @@
 class Translation( object ):
     NOT_AUTH_TXT = "⚠️ <b>Unauthorized Access</b> ⚠️\nYou are not in Auth Users.  So you can't use the core " \
                    "components of this bot. Inconvenience is regretted !"
-    DOWNLOAD_START = "📥<b>Downloading 📥</b>"
-    UPLOAD_START = "📤<b>Uploading 📤</b>"
+    DOWNLOAD_START = "<b>Downloading 📥</b>"
+    UPLOAD_START = "<b>Uploading 📤</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>✅ Thumbnail Saved Successfully.</b>\n<code>This file will be used in upcoming " \
                               "rename or video conversions</code> "
     SAVED_RECVD_DOC_FILE = "<b>✔️ Media Downloaded Successfully</b>"
