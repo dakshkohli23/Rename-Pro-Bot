@@ -13,6 +13,9 @@ class Config(object):
 
     # Array to store users who are authorized to use the bot
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
+    
+    # Banned Unwanted Members..
+    BANNED_USERS = []
 
     # Channels to forward the formatted video (Optional, Prefix: "-100", Bot should be an admin of the channels)
     CHANNEL1_ID = os.environ.get("CHANNEL1_ID")
