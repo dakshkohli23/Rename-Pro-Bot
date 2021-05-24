@@ -1,26 +1,26 @@
 #-------------------------------------- https://github.com/dakshkohli23/Rename-Pro-Bot --------------------------------------#
 
 class Translation( object ):
-    NOT_AUTH_TXT = "⚠️ <b>Unauthorized Access</b> ⚠️\nYou are not in Auth Users.  So you can't use the core " \
-                   "components of this bot. Inconvenience is regretted !"
-    DOWNLOAD_START = "<b>Downloading 📥</b>"
-    UPLOAD_START = "<b>Uploading 📤</b>"
+    NOT_AUTH_TXT = "<b>⚠️ Unauthorized Access ⚠️</b>\nYou're not Auth User. So You Can't Use the Core " \
+                   "components of this Bot. Inconvenience is regretted!"
+    DOWNLOAD_START = "<b>━━┫ Downloading 📥 ┣━━</b>"
+    UPLOAD_START = "<b>━━┫ Uploading 📥 ┣━━</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>✅ Thumbnail Saved Successfully.</b>\n<code>This file will be used in upcoming " \
                               "rename or video conversions</code> "
     SAVED_RECVD_DOC_FILE = "<b>✔️ Media Downloaded Successfully</b>"
-    ACCESS_DENIED_TEXT = "You are not authorized to use this Bot."
-    START_TEXT = "Hello.. <b>{}</b>\n\n<b>Myself:</b> {}\n\n<b>I can do a lot of things with your files</b>\n\n" \
-                 "<i>Send filename + extension (Eg: terminator.mkv) as a reply to any telegram media, and follow " \
+    ACCESS_DENIED_TEXT = "You're not Authorized to use this Bot."
+    START_TEXT = "Hey.. <b>{}</b>\n\n<b>I'm -</b> {}\n\n<b>Things I Can Do:</b>\n" \
+                 "➟ Rename File \n➟ Convert to Video/File \n➟ Custom Thumbnail \n Send Media to 5 Different Channels/Groups \n\n" \
+                 "<i>Send filename + extension (Eg: onepiece.mkv) as a reply to any telegram media, and follow " \
                  "Bot's instructions.</i>\n\n" \
-                 "<b>Developer: </b><a href='https://t.me/Dlaize'> Mr. Dlaize</a>\n" \
-                 "<b>Source Code: </b><a href='https://github.com/dakshkohli23/Rename-Pro-Bot'> Github</a>\n\n" \
-                 "<i> Have a nice day</i> 😍"
+                 "<b>👨‍💻 Developer: </b><a href='https://t.me/Dlaize'> Mr. Dlaize</a>\n" \
+                 "<b>🧬 Source Code: </b><a href='https://github.com/dakshkohli23/Rename-Pro-Bot'> Github</a>\n\n" \
     SETTINGS_TEXT = "<b>These are my available options:</b>"
     THUMB_CAPTION = "<code>This image is your current thumbnail, Tap</code><b> DEL THUMB </b><code>if you wish to " \
                     "clear it !</code> "
     NO_THUMB = "⛔️ <b>No thumbnails available.</b>\n<code>Upload an image to save it !" \
                "!</code> "
-    DEL_CUSTOM_THUMB_NAIL = "✅ <b>Thumbnail cleared successfully.</b>\n<code>Thumbnail won't be available to the " \
+    DEL_CUSTOM_THUMB_NAIL = "🗑️ <b>Thumbnail cleared successfully.</b>\n<code>Thumbnail won't be available to the " \
                             "downloading media, unless you upload an image !</code> "
     DEL_THUMB_CONFIRM = "⚠️ <b>Do you wish to remove thumbnail?</b>\n<code>Thumbnail won't be available in the files " \
                         "when you delete it!</code> "
@@ -29,7 +29,7 @@ class Translation( object ):
                   "check the supported extensions in welcome message !</code> "
     EXTENSIONS = ['.mkv', '.mp4', '.avi', '.webm']
     NO_SPAM_MSG = "⚠️ <b>Don't Spam Here</b>\n<code>Read the welcome message for better use of this bot !</code>"
-    MAKE_A_COPY_TEXT = "📚 <code>Need a copy ?</code>"
+    MAKE_A_COPY_TEXT = "📚 <b>{} \n You Need a Copy ?</b>"
     CAPTION_TEXT = "<b>{}</b>"
     SUCCESSFUL_SEND = "<code>Forwarded Successfully to:</code>\n<b>{}</b>"
     FORWARD_ERROR = "<b>⚠️ Attention :</b>\n<code>Make Sure That I am Admin in Your Channel or Provided Channel " \
@@ -40,7 +40,7 @@ class Translation( object ):
                       "a valid channel id in the config ENV.</b>\n\n3️⃣ <b>You haven't set a default channel in the " \
                       "bot for the process.</b> "
     NOT_REPLIED_TO_MESSAGE = "⚠️ <b>Attention :</b>\n<code>Replay to any message to send !</code>"
-    INFO_CHANNEL = "A'm currently sending messages to:\n<b>{}</b>"
+    INFO_CHANNEL = "I'm currently sending messages to:\n<b>{}</b>"
     NO_DEFAULT_SET = "⚠️ <b>Attention :</b>\n<code>No Default channels found! Set a channel first.</code>"
     LIST_CHANNELS = "<b>These are my associated chats in use:</b>\n\n<b>Channel 1:</b>\n<code>ID: {}</code>\nName: {" \
                     "}\n\n<b>Channel2:</b>\n<code>ID: {}</code>\nName: {}\n\n<b>Channel 3:</b>\n<code>ID: {" \
