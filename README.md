@@ -1,5 +1,5 @@
 
-# [RenameProBot](https://github.com/m4mallu/renameprobot) 🤖
+# [Rename-Pro-Bot](https://github.com/dakshkohli23/Rename-Pro-Bot) 🤖
 
 An Open Source ALL-In-One Telegram RoBot, that can do a lot of things.
 
