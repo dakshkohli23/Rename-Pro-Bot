@@ -12,7 +12,7 @@ class Translation( object ):
     START_TEXT = "Hello.. <b>{}</b>\n\n<b>Myself:</b> {}\n\n<b>I can do a lot of things with your files</b>\n\n" \
                  "<i>Send filename + extension (Eg: terminator.mkv) as a reply to any telegram media, and follow " \
                  "Bot's instructions.</i>\n\n" \
-                 "<b>Developer: </b><a href='https://t.me/Dlaize'>                Mr. Dlaize</a>\n" \
+                 "<b>Developer: </b><a href='https://t.me/Dlaize'> Mr. Dlaize</a>\n" \
                  "<b>Source Code: </b><a href='https://github.com/dakshkohli23/Rename-Pro-Bot'> Github</a>\n\n" \
                  "<i> Have a nice day</i> 😍"
     SETTINGS_TEXT = "<b>These are my available options:</b>"
