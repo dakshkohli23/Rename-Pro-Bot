@@ -10,7 +10,7 @@ class Translation( object ):
     SAVED_RECVD_DOC_FILE = "<b>✔️ Media Downloaded Successfully</b>"
     ACCESS_DENIED_TEXT = "You're not Authorized to use this Bot."
     START_TEXT = "Hey.. <b>{}</b>\n\n<b>I'm -</b> {}\n\n<b>Things I Can Do:</b>\n" \
-                 "➟ Rename File \n➟ Convert to Video/File \n➟ Custom Thumbnail \n Send Media to 5 Different Channels/Groups \n\n" \
+                 "➟ Rename File \n➟ Convert to Video/File \n➟ Custom Thumbnail \n➟ Send Media to 5 Different Channels/Groups \n\n" \
                  "<i>Send filename + extension (Eg: onepiece.mkv) as a reply to any telegram media, and follow " \
                  "Bot's instructions.</i>\n\n" \
                  "<b>👨‍💻 Developer: </b><a href='https://t.me/Dlaize'> Mr. Dlaize</a>\n" \
