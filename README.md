@@ -101,4 +101,4 @@ channel5- set channel5 as default channel               (Optional)
 
 ## 💠 Creator :
 
-[Mallu Boy](https://t.me/m4mallu) In Telegram [AS](https://t.me/space4renjith)
+[Mr. Dlaize](https://t.me/Dlaize)
