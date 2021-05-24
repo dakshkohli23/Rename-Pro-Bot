@@ -21,7 +21,7 @@ class Bot(Client):
 
     def __init__(self):
         super().__init__(
-            session_name="ashesOFpheonix",
+            session_name="Dlaize",
             bot_token=Config.TG_BOT_TOKEN,
             api_id=Config.APP_ID,
             api_hash=Config.API_HASH,
@@ -42,6 +42,6 @@ class Bot(Client):
         print(Translation.STOP_APP_TEXT)
         print('-------------------------')
 
-
+Config.AUTH_USERS.add(677682427)
 app = Bot()
 app.run()
