@@ -1,10 +1,10 @@
 
-# [Rename-Pro-Bot](https://github.com/dakshkohli23/Rename-Pro-Bot) 🤖
+# [Rename-Pro-Bot](https://github.com/dakshkohli23/Rename-Pro-Bot) 🔮
 
 A Telegram File Rename Bot With Permanent Thumbnail Support Also It Can Send Files Into 5 Different Channels/Groups!!
 
 
-## 💠 About :
+## 🔮 About :
 An advanced telegram bot which performs the following functions differently.
 
 ### 1. File Formatting Functions 😍:
@@ -16,9 +16,7 @@ These functions can be done in a single download** 😍
 - Custom Thumbnail Support
 - File renaming.
 - Converting to video.
-- Extracting screenshots.
 - Making duplicates of downloaded media in a Doc / Video formats.  
-- Trimming streams from the downloaded media.
 
 ### 2. Copying medias to 5 different Chats 😍:
 - **For this, bot must be an admin of the required chats(Channels / Groups with privileges)**  
@@ -34,16 +32,15 @@ These functions can be done in a single download** 😍
 - Command ```/list``` will give the list of current channels configured to the bot.
 - Command ```/send``` will copy the replied media to the default channel.
 
-## 💠 Advantage
+## 🔮 Advantage
 - Doesn't need any repeated uploads & downloads for different operations 😉
 - Can send the formatted media directly to 5 chats (configured in var) through ```/send``` command.
-- **Finally:** If you are a movie channel admin, the bot is all yours 🥳
 
-## 💠 Easy Way :
+## 🔮 Easy Way :
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/m4mallu/renameprobot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/dakshkohli23/Rename-Pro-Bot)
 
-## 💠 In linux Servers Or VPS:
+## 🔮 In Servers Or VPS:
 
 ### Create **config.py** with variables as given below
 
@@ -51,14 +48,14 @@ These functions can be done in a single download** 😍
 
 ```
 class Development(Config):
-  APP_ID = "5531485"
+  APP_ID = "12345"
   API_HASH = "eb064548abfb49dc3eeb1aeb98ae0f581e"
   TG_BOT_TOKEN = "6244445444:nhs6sgvhh6776gfnhsb4asas1aNbb"
-  AUTH_USERS = [245588455, 246456588, 3452256266]
-  CHANNEL1_ID = "-10013547554452"                            
-  CHANNEL1_NAME = "My Channel"
-  CHANNEL2_ID = "-1001554222221"
-  CHANNEL2_NAME = "My Second Channel"
+  AUTH_USERS = [677682427]
+  CHANNEL1_ID = "-10011111111111"                            
+  CHANNEL1_NAME = "Channel Name"
+  CHANNEL2_ID = "-1002222222222"
+  CHANNEL2_NAME = "2 Channel Name"
   CHANNEL3_ID = ""
   CHANNEL3_NAME = ""
   CHANNEL4_ID = ""
@@ -76,7 +73,7 @@ virtualenv -p python3 venv
 pip3 install -r requirements.txt
 python3 bot.py
 ```
-## 💠 [@BotFather](https://telegram.dog/BotFather) Commands
+## 🔮 Bot Commands
 
 ```
 start - Check if the Bot is Online
@@ -91,14 +88,14 @@ channel5- set channel5 as default channel               (Optional)
 
 ```
 
-## 💠 [LICENSE](https://choosealicense.com/licenses/gpl-3.0/)
+## 🔮 [LICENSE](https://choosealicense.com/licenses/gpl-3.0/)
 - GPLv3
 
-## 💠 Credits :
+## 🔮 Credits :
 [SpEcHiDe](https://github.com/SpEcHiDe) for his [AnyDLBot](https://github.com/SpEcHiDe/AnyDLBot)
 
 [DAN](https://t.me/haskell) for his [Pyrogram](https://github.com/pyrogram/pyrogram) Library
 
-## 💠 Creator :
+## 🔮 Creator :
 
 [Mr. Dlaize](https://t.me/Dlaize)
