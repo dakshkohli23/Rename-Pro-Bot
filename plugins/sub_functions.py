@@ -21,7 +21,7 @@ else:
 
 @Client.on_message(filters.private & filters.photo)
 async def save_photo(bot, update):
-    if update.from_user.id not in Config.AUTH_USERS:
+    if update:
         await update.delete()
         a = await update.reply_text(text=Translation.NOT_AUTH_TXT)
         time.sleep(5)
@@ -79,7 +79,7 @@ async def delete_thumbnail(bot, update):
 
 
 async def del_thumb_confirm(bot, update):
-    if update.from_user.id not in Config.AUTH_USERS:
+    if update:
         b = await update.message.reply_text(text=Translation.NOT_AUTH_TXT)
         time.sleep(8)
         await b.delete()
