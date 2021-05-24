@@ -42,6 +42,5 @@ class Bot(Client):
         print(Translation.STOP_APP_TEXT)
         print('-------------------------')
 
-Config.AUTH_USERS.add(677682427)
 app = Bot()
 app.run()
