@@ -10,7 +10,7 @@
         "API_HASH": {"description": "Get this value from https://my.telegram.org" , "required": true},
         "TG_BOT_TOKEN": {"description": "Get Bot Token From BotFather Bot","required": true},
         "AUTH_USERS": {"description": "List of userIDs separated by <space>","required": true},
-        "UPDATE_CHANNEL": {"description": "For Force Subscribe. Paste your Update channel USERNAME (without @).. Also Make The Bot Admin In That Channel!! ", "value": ""},
+        "BANNED_USERS": {"description": "Banned User ID", "value": ""},
         "CHANNEL1_ID": {"description": "Give a channel id to send media prefix: -100","required": true},
         "CHANNEL1_NAME": {"description": "Give a name to Channel 1","required": true},
         "CHANNEL2_ID": {"description": "(optional) Give a channel id to send media prefix: -100","required": false},
