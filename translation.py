@@ -4,10 +4,10 @@ class Translation( object ):
     NOT_AUTH_TXT = "<b>⚠️ Unauthorized Access ⚠️</b>\nYou're not Auth User. So You Can't Use the Core " \
                    "components of this Bot. Inconvenience is regretted!"
     DOWNLOAD_START = "<b>━━┫ Downloading 📥 ┣━━</b>"
-    UPLOAD_START = "<b>━━┫ Uploading 📥 ┣━━</b>"
+    UPLOAD_START = "<b>━━┫ Uploading 📤 ┣━━</b>"
     SAVED_CUSTOM_THUMB_NAIL = "<b>✅ Thumbnail Saved Successfully.</b>\n<code>This file will be used in upcoming " \
                               "rename or video conversions</code> "
-    SAVED_RECVD_DOC_FILE = "<b>✔️ Media Downloaded Successfully</b>"
+    SAVED_RECVD_DOC_FILE = "<b>✅ Media Downloaded Successfully</b>"
     ACCESS_DENIED_TEXT = "You're not Authorized to use this Bot."
     START_TEXT = "Hey.. <b>{}</b>\n\n<b>I'm -</b> {}\n\n<b>Things I Can Do:</b>\n" \
                  "➟ Rename File \n➟ Convert to Video/File \n➟ Custom Thumbnail \n➟ Send Media to 5 Different Channels/Groups \n\n" \
