@@ -46,7 +46,7 @@ These functions can be done in a single download** 😍
 
 **An example `config.py` file could be:**
 
-```
+```python
 class Development(Config):
   APP_ID = "12345"
   API_HASH = "eb064548abfb49dc3eeb1aeb98ae0f581e"
@@ -67,7 +67,7 @@ class Development(Config):
 
 After creating the config file, open a terminal in the bot directory and run the following commands (Don' run as root !)
 
-```
+```sh
 virtualenv -p python3 venv
 . ./venv/bin/activate
 pip3 install -r requirements.txt
@@ -80,12 +80,11 @@ start - Check if the Bot is Online
 send  - send media to the defaul channel
 view  - view the default channel name
 list  - List the channels configured to the bot
-channel1- set channel1 as default channel
-channel2- set channel2 as default channel               (Optional)
-channel3- set channel3 as default channel               (Optional)
-channel4- set channel4 as default channel               (Optional)
-channel5- set channel5 as default channel               (Optional)
-
+channel1 - set channel1 as default channel
+channel2 - set channel2 as default channel               (Optional)
+channel3 - set channel3 as default channel               (Optional)
+channel4 - set channel4 as default channel               (Optional)
+channel5 - set channel5 as default channel               (Optional)
 ```
 
 ## 🔮 [LICENSE](https://choosealicense.com/licenses/gpl-3.0/)
